@@ -23,8 +23,8 @@ public interface Skill extends CleanableUp {
     void setInput(String input, List<String> inputWords, List<String> normalizedWordKeys);
     
     /**
-     * This returns the Input String given in setInput() 
-     * @return Input String given in setInput()
+     * This returns the Input String given in {@link #setInput(String, List, List)}
+     * @return Input String given in {@link #setInput(String, List, List)}
      **/
     String getInput();
     
