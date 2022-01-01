@@ -21,7 +21,11 @@ public interface Skill extends CleanableUp {
      * @see InputRecognizer#setInput(String, List, List)
      */
     void setInput(String input, List<String> inputWords, List<String> normalizedWordKeys);
-
+    /**
+     * This returns the Input String given in setInput() 
+     * @return Input String given in setInput()
+     **/
+    String getInput();
     /**
      * @see InputRecognizer#score()
      */
